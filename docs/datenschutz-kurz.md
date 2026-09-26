@@ -35,6 +35,24 @@ etwa Banking, gelten andere rechtliche Rahmenbedingungen (z. B.
 Bankgeheimnis) — auch dort bleibt das Grundprinzip (Spiegeldaten statt
 Klartext) dasselbe.
 
+## Nicht nur Schutz — auch der Nachweis dafür
+
+Für eine Kanzlei, Praxis oder Bank reicht die bloße Zusage "wir schützen Ihre
+Daten" gegenüber einer Aufsichtsbehörde oder dem eigenen Datenschutzbeauftragten
+oft nicht aus — verlangt wird ein vorzeigbares Dokument. Tegmaguard stellt dafür
+zu jedem einzelnen Fall zwei Dokumente aus, jederzeit neu abrufbar, nicht nur
+einmalig beim Kauf:
+
+- **Ein DSGVO-Bericht pro Fall** (als PDF oder Word), der festhält, welche
+  Datenkategorien erkannt und ersetzt wurden und welcher KI-Anbieter beteiligt
+  war — mit oder ohne Klartext-Zuordnung.
+- **Ein Löschzertifikat nach Art. 17 DSGVO**, ausgestellt bei jeder
+  Fall-Löschung, mit einem Verifikationsscan, der die tatsächliche Löschung
+  bestätigt statt sie nur zu behaupten.
+
+Beide Dokumente lassen sich für jeden Fall erneut erzeugen, solange der Fall
+existiert — nicht nur zum Zeitpunkt der Bearbeitung.
+
 ## Was dieses Dokument nicht ist
 
 Dies ist eine kurze, allgemeinverständliche Einordnung, kein

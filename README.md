@@ -23,6 +23,22 @@ Bankgeheimnis, KWG) statt § 203 StGB — Details dazu in
 [docs/branchen.md](docs/branchen.md). Der Ollama-Zugriff ist hart auf
 localhost beschränkt.
 
+## Nicht nur Datenschutz — auch der Nachweis dafür
+
+"Wir schützen Ihre Daten" reicht einer Aufsichtsbehörde oder dem eigenen
+Datenschutzbeauftragten oft nicht — verlangt wird ein vorzeigbares Dokument.
+Tegmaguard stellt zu jedem einzelnen Fall zwei solche Dokumente aus, jederzeit
+erneut abrufbar, nicht nur einmalig beim Kauf:
+
+- **DSGVO-Bericht pro Fall** (PDF/DOCX) — welche Datenkategorien erkannt und
+  ersetzt wurden, welcher KI-Anbieter beteiligt war, mit oder ohne
+  Klartext-Zuordnung.
+- **Löschzertifikat nach Art. 17 DSGVO**, ausgestellt bei jeder Fall-Löschung,
+  mit Verifikationsscan, der die tatsächliche Löschung bestätigt statt sie nur
+  zu behaupten.
+
+Details: [docs/datenschutz-kurz.md](docs/datenschutz-kurz.md#nicht-nur-schutz--auch-der-nachweis-dafür).
+
 ## Tegmaguard nutzen
 
 **[tegmaguard.com](https://tegmaguard.com)**
