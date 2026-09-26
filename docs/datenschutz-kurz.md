@@ -53,6 +53,15 @@ einmalig beim Kauf:
 Beide Dokumente lassen sich für jeden Fall erneut erzeugen, solange der Fall
 existiert — nicht nur zum Zeitpunkt der Bearbeitung.
 
+## Grenze der Erkennung, ehrlich benannt
+
+Die Erkennung sensibler Angaben ist bestmöglich, aber nicht garantiert: ein
+Wert, der weder erkannt noch bereits bekannt noch von der nutzenden Person
+selbst markiert wurde, kann nicht geschützt werden. Deshalb zeigt Tegmaguard
+vor jedem Versand eine Vorschau des tatsächlich zu sendenden Textes, die
+aktiv bestätigt werden muss — die automatische Erkennung ist die erste,
+nicht die einzige Schutzschicht.
+
 ## Was dieses Dokument nicht ist
 
 Dies ist eine kurze, allgemeinverständliche Einordnung, kein

@@ -8,13 +8,13 @@
 
 ---
 
-## 100% Datenschutz bei KI-Nutzung für Berufe mit sensiblen Daten
+## Datenschutz durch lokale Anonymisierung vor jeder KI-Anfrage
 
 Tegmaguard schaltet sich vor jede Anfrage an ein KI-Modell und sorgt dafür,
-dass echte Namen, Adressen, IBANs, Aktenzeichen und viele weitere sensible
-Angaben das eigene Gerät gar nicht erst verlassen. Wer mit einem lokalen
-Modell über Ollama arbeitet, bleibt vollständig offline — kein Netz, kein
-externer Server, keine Übermittlung.
+dass erkannte echte Namen, Adressen, IBANs, Aktenzeichen und viele weitere
+sensible Angaben das eigene Gerät gar nicht erst verlassen. Wer mit einem
+lokalen Modell über Ollama arbeitet, bleibt vollständig offline — kein Netz,
+kein externer Server, keine Übermittlung.
 
 Das ist besonders relevant für Berufsgeheimnisträger nach § 203 StGB —
 konkret die Profile **Anwalt**, **Steuerberater** und **Gesundheit**. Für
@@ -22,6 +22,12 @@ andere Branchen wie Banking gelten eigene rechtliche Rahmenbedingungen (z. B.
 Bankgeheimnis, KWG) statt § 203 StGB — Details dazu in
 [docs/branchen.md](docs/branchen.md). Der Ollama-Zugriff ist hart auf
 localhost beschränkt.
+
+Ehrlich benannte Grenze: Erkennung ist bestmöglich, aber nicht garantiert —
+ein Wert, der weder erkannt noch bekannt noch vom Nutzer markiert wurde, kann
+nicht geschützt werden. Deshalb zeigt Tegmaguard vor jedem Versand eine
+Vorschau, die die Nutzerin oder der Nutzer bestätigen muss, statt sich blind
+auf die automatische Erkennung zu verlassen.
 
 ## Nicht nur Datenschutz — auch der Nachweis dafür
 
@@ -56,7 +62,8 @@ eine Lizenz.
 
 | Branche | Profil | Beispiel-Kategorien (grob) | Berufsgeheimnis-relevant |
 |---|---|---|---|
-| Alle Branchen / Einstieg | Standard / Universal | Namen, Adressen, Telefonnummern, E-Mail | Nein |
+| Alle Branchen / Einstieg | Allgemein (Standard) | Namen, Adressen, Telefonnummern, E-Mail | Nein |
+| Alle Branchen / volle Abdeckung | Universal | Alle Kategorien aus allen Profilen kombiniert | Nein |
 | Rechtsanwalt / Kanzlei | Anwalt | Aktenzeichen, Mandantennummer | Ja |
 | Steuerberatung | Steuerberater | Steuer-ID, DATEV-Belegnummer | Ja |
 | Arztpraxis / Gesundheitswesen | Gesundheit | ICD-Diagnosecode, Patientennummer | Ja |
@@ -66,7 +73,7 @@ Ausführlichere Tabelle: [docs/branchen.md](docs/branchen.md).
 
 ## Was Tegmaguard tut
 
-Tegmaguard erkennt aktuell über 90 Kategorien personenbezogener und
+Tegmaguard erkennt aktuell über 100 Kategorien personenbezogener und
 geschäftskritischer Daten in Texten (DE, AT, CH, FR, ES, GB, IE, US) —
 laufend erweitert — und ersetzt sie durch stimmige, aber frei erfundene
 Platzhalterdaten (Spiegeldaten), bevor der Text ein KI-Modell erreicht. Nach

@@ -1,12 +1,13 @@
 # Branchen-Abdeckung
 
-Tegmaguard bringt fünf Profile mit — je Profil ein passend zugeschnittener Satz an
+Tegmaguard bringt sechs Profile mit — je Profil ein passend zugeschnittener Satz an
 erkannten Datenkategorien. Ein Profil wird bei der Einrichtung einmal gewählt und
 lässt sich jederzeit wechseln.
 
 | Branche | Profil | Beispiel-Kategorien (grobe Gruppen) | Berufsgeheimnis-relevant (§ 203 StGB) |
 |---|---|---|---|
-| Alle Branchen / Einstieg | Standard / Universal | Namen, Adressen, Telefonnummern, E-Mail, IBAN, Geburtsdaten | Nein — branchenneutral |
+| Alle Branchen / Einstieg | Allgemein (Standard) | Namen, Adressen, Telefonnummern, E-Mail, IBAN, Geburtsdaten | Nein — branchenneutral |
+| Alle Branchen / volle Abdeckung | Universal | Alle Kategorien aus allen Profilen kombiniert | Nein — branchenneutral |
 | Rechtsanwalt / Kanzlei | Anwalt | Aktenzeichen, Mandantennummer, Gerichts- und Verfahrensangaben, Namen, Adressen | Ja |
 | Steuerberatung | Steuerberater | Steuer-ID, DATEV-Belegnummer, Mandantennummer, Namen, Adressen | Ja |
 | Arztpraxis / Gesundheitswesen | Gesundheit | ICD-Diagnosecode, Patientennummer, Versicherungsnummer, Namen, Adressen | Ja |
@@ -26,7 +27,7 @@ ausgeliefert und daher hier nicht als verfügbare Option aufgeführt.
 
 ## Kategorien insgesamt
 
-Über alle Profile hinweg erkennt Tegmaguard aktuell mehr als 90 einzelne
+Über alle Profile hinweg erkennt Tegmaguard aktuell mehr als 100 einzelne
 Datenkategorien, laufend erweitert — von allgemeinen personenbezogenen Angaben
 (Namen, Adressen, Kontaktdaten) bis zu branchenspezifischen Kennungen wie
 Aktenzeichen, ICD-Codes oder IBAN/BIC. Die genaue Kategorienliste ist Teil der
