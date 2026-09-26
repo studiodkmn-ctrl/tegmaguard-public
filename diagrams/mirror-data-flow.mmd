@@ -1,0 +1,13 @@
+flowchart LR
+    subgraph LOKAL["Auf Ihrem Gerät (verlässt nie den Mac)"]
+        A["Ihr Text<br/>'Bitte ein Mahnschreiben an<br/>Max Mustermann, IBAN DE89...'"]
+        B["Erkennung sensibler Angaben<br/>(Namen, IBAN, Adresse, Aktenzeichen …)"]
+        C["Ersetzung durch stimmige<br/>Platzhalterdaten<br/>'Bitte ein Mahnschreiben an<br/>Jonas Feldmann, IBAN DE12...'"]
+        F["Rückübersetzung:<br/>Platzhalter → echte Werte"]
+        G["Fertige Antwort<br/>mit echtem Namen 'Max Mustermann'<br/>— nur lokal sichtbar"]
+    end
+    subgraph EXTERN["Beim KI-Anbieter (Claude / ChatGPT / Gemini)<br/>oder lokal bei Ollama"]
+        D["KI erhält NUR den Text<br/>mit Platzhalterdaten"]
+        E["KI-Antwort<br/>(bezieht sich auf 'Jonas Feldmann')"]
+    end
+    A --> B --> C -->|"nur dieser Text<br/>geht nach außen"| D --> E --> F --> G
