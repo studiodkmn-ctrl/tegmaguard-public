@@ -34,7 +34,8 @@ auf die automatische Erkennung zu verlassen.
 "Wir schützen Ihre Daten" reicht einer Aufsichtsbehörde oder dem eigenen
 Datenschutzbeauftragten oft nicht — verlangt wird ein vorzeigbares Dokument.
 Tegmaguard stellt zu jedem einzelnen Fall zwei solche Dokumente aus, jederzeit
-erneut abrufbar, nicht nur einmalig beim Kauf:
+erneut abrufbar, nicht nur einmalig beim Kauf — Teil der Jahreslizenz, nach
+der 30-Tage-Testphase:
 
 - **DSGVO-Bericht pro Fall** (PDF/DOCX) — welche Datenkategorien erkannt und
   ersetzt wurden, welcher KI-Anbieter beteiligt war, mit oder ohne
@@ -54,8 +55,9 @@ Fragen oder Kontakt: [info@tegmaguard.com](mailto:info@tegmaguard.com)
 ## Kostenlose Lokal-Edition
 
 Mit einem lokalen Modell über Ollama (Llama, Gemma, Mistral, Qwen, DeepSeek,
-Phi) ist Tegmaguard dauerhaft kostenlos nutzbar. Nur die Anbindung an
-Cloud-Anbieter (Claude, ChatGPT, Gemini) erfordert nach der 30-Tage-Testphase
+Phi) bleiben Fälle ansehen und die lokale KI-Nutzung dauerhaft kostenlos.
+Export, Löschfunktion, Firmenwissen und Briefkopf sowie die Anbindung an
+Cloud-Anbieter (Claude, ChatGPT, Gemini) erfordern nach der 30-Tage-Testphase
 eine Lizenz.
 
 ## Branchen-Abdeckung
@@ -113,9 +115,10 @@ DSGVO-Dokumentation, die auf Anfrage für Kunden und Auditoren einsehbar ist.
 
 ## Wie man Tegmaguard bekommt
 
-30 Tage kostenlos testen, alle Funktionen inklusive. Danach bleibt Tegmaguard
-mit lokaler KI über Ollama dauerhaft kostenlos nutzbar — nur die
-Cloud-Anbindung braucht danach eine Lizenz.
+30 Tage kostenlos testen, alle Funktionen inklusive. Danach bleiben Fälle
+ansehen und die lokale KI über Ollama dauerhaft kostenlos nutzbar — Export,
+Löschfunktion, Firmenwissen, Briefkopf und die Cloud-Anbindung brauchen
+danach eine Lizenz.
 
 **[tegmaguard.com](https://tegmaguard.com)**
 

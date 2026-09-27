@@ -41,7 +41,7 @@ Für eine Kanzlei, Praxis oder Bank reicht die bloße Zusage "wir schützen Ihre
 Daten" gegenüber einer Aufsichtsbehörde oder dem eigenen Datenschutzbeauftragten
 oft nicht aus — verlangt wird ein vorzeigbares Dokument. Tegmaguard stellt dafür
 zu jedem einzelnen Fall zwei Dokumente aus, jederzeit neu abrufbar, nicht nur
-einmalig beim Kauf:
+einmalig beim Kauf — Teil der Jahreslizenz, nach der 30-Tage-Testphase:
 
 - **Ein DSGVO-Bericht pro Fall** (als PDF oder Word), der festhält, welche
   Datenkategorien erkannt und ersetzt wurden und welcher KI-Anbieter beteiligt
